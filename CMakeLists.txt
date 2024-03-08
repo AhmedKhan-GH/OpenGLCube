@@ -4,7 +4,7 @@ project(OpenGLCube)
 
 # Specify the path to the wxWidgets configuration executable if not automatically found
 # Example for wxWidgets_CONFIG_EXECUTABLE is only necessary if CMake can't find wxWidgets automatically
-set(wxWidgets_CONFIG_EXECUTABLE "${CMAKE_SOURCE_DIR}/../wxWidgets-3.2.4/build-gtk/wx-config")
+set(wxWidgets_CONFIG_EXECUTABLE "$ENV{HOME}/source/libraries/wxWidgets-3.2.4/build-gtk/wx-config")
 
 find_package(wxWidgets REQUIRED COMPONENTS core base gl)
 include(${wxWidgets_USE_FILE})
