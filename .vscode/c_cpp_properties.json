@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/../wxWidgets-3.2.4/build-gtk/lib/wx/include/gtk3-unicode-static-3.2",
+                "${workspaceFolder}/../wxWidgets-3.2.4/include/",
+                "${workspaceFolder}/../wxWidgets-3.2.4/include/msvc/",
+                "${workspaceFolder}/include/",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
